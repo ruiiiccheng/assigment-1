@@ -60,7 +60,9 @@ public class IRMS {
     /**
      * Set of valid supervisor badge IDs used to grant supervisor access.
      */
-    private Set<String> validBadges = new HashSet<>(Arrays.asList("1234", "1235"));
+    private Set<String> validBadges = new HashSet<>(Arrays.asList("1234", "1236"));
+    //Mutant5: Scalar Variable Replacement
+    //Killed by: F3EC3, F3EC4 tests with specific badge IDs
     //private final List<String> validBadges = new ArrayList<>(Arrays.asList("1234", "1235"));
 
     /**

@@ -284,7 +284,9 @@ public class IRMS {
         }
 
         // Check rating is between 0 and 9
-        if (rating < 0 || rating > 9) {
+        if (rating < 0 && rating > 9) {
+            // Mutant 3: Logical Operator Replacement
+            //Killed by: F4EC4 on-point test (rating < 0) or F4EC5 on-point test (rating > 9)
             throw new InvalidRatingException(rating);
         }
 

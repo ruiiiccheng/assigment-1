@@ -1,0 +1,37 @@
+Testsuite: swen90006.irms.PartitioningTests
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 sec
+
+Testcase: F3EC2_a took 0.009 sec
+Testcase: F3EC2_b took 0 sec
+Testcase: isAuthenticated_F2EC1 took 0 sec
+Testcase: isAuthenticated_F2EC2 took 0.017 sec
+Testcase: isAuthenticated_F2EC3 took 0 sec
+Testcase: isRegistered_F1EC1 took 0 sec
+Testcase: isRegistered_F1EC2 took 0.012 sec
+Testcase: isRegistered_F1EC3 took 0 sec
+Testcase: isRegistered_F1EC4 took 0.001 sec
+Testcase: isRegistered_F1EC5 took 0 sec
+Testcase: isRegistered_F1EC6 took 0 sec
+Testcase: isRegistered_F1EC7 took 0 sec
+Testcase: isRegistered_F1EC8 took 0 sec
+Testcase: isRegistered_F1EC9 took 0 sec
+Testcase: aFailedTest took 0.001 sec
+Testcase: F3EC1 took 0.002 sec
+Testcase: F3EC3 took 0.001 sec
+Testcase: F3EC4 took 0 sec
+Testcase: F4EC1 took 0.001 sec
+Testcase: F4EC2 took 0 sec
+Testcase: F4EC3 took 0.001 sec
+Testcase: F4EC4 took 0.006 sec
+Testcase: F4EC5 took 0 sec
+Testcase: F4EC6 took 0 sec
+Testcase: F4EC7 took 0 sec
+Testcase: F4EC8 took 0 sec
+Testcase: F4EC9 took 0.013 sec
+Testcase: F5EC1 took 0 sec
+Testcase: F5EC2 took 0 sec
+Testcase: F5EC3 took 0 sec
+Testcase: F5EC4 took 0 sec
+Testcase: F5EC5 took 0 sec
+Testcase: aTest took 0 sec
+Testcase: anExceptionTest took 0 sec

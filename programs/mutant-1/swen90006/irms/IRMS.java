@@ -95,9 +95,10 @@ public class IRMS {
      */
     private boolean isValidAnalystName(String analystName) {
         // Check if the analystName is at least 4 characters long
-        if (analystName.length() < MINIMUM_ANALYST_NAME_LENGTH) {
+        if (analystName.length() <= MINIMUM_ANALYST_NAME_LENGTH) {
             return false;
-        }
+        }//Mutant 1: Arithmetic Operator Replacement
+        //Killed by: F1EC2 off-point test with exactly 4 characters
 
         // Check if the analystName contains only lower- and upper-case letters
         for (char c : analystName.toCharArray()) {

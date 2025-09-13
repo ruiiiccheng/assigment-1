@@ -284,7 +284,10 @@ public class IRMS {
         }
 
         // Check rating is between 0 and 9
-        if (rating < 0 || rating > 9) {
+        if (-rating < 0 || - rating > 9) {
+            //Mutant 4
+            //Unary Operator Insertion
+            //Killed by: F4EC4 tests with negative ratings
             throw new InvalidRatingException(rating);
         }
 

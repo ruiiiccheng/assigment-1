@@ -180,7 +180,9 @@ public class IRMS {
             boolean hasLetter = false;
             boolean hasDigit = false;
             boolean hasSpecial = false;
-            if (password.length() < MINIMUM_PASSWORD_LENGTH || password.length() > MAXIMUM_PASSWORD_LENGTH) {
+            if (password.length() <= MINIMUM_PASSWORD_LENGTH || password.length() > MAXIMUM_PASSWORD_LENGTH) {
+                //mutant 2 : change < to <=  Arithmetic Operator Replacement
+                //Killed by: F1EC4 off-point test with exactly 10 characters
                 throw new InvalidPasswordException(password);
             } else {
                 for (char c : password.toCharArray()) {
